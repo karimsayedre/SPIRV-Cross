@@ -1260,6 +1260,13 @@ void Parser::parse(const Instruction &instruction)
 		break;
 	}
 
+	case 5281: // OpTypeHitObjectNV
+	{
+		// Just a work around a crash when using SER
+		break;
+	}
+
+
 	// Actual opcodes.
 	default:
 	{
